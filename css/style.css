@@ -1,19 +1,62 @@
-/* 
-
-Style Hints: 
+/*
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
 	 Font Color = black
 	 Background: #F3EBE9
-
-H1 Font Size = 50px
-   Font Family = Arial, Helvetica, sans-serif
-   Text-transform: uppercase;
-   color: #FFFFFF;	(White)
-
-H2: Font Size = 18px
-	Text-Transform: uppercase;
-	Font-Family: cursive, Helvetica, sans-serif;
-
 */
+body {
+	background-image: url(../images/pattern1.png);
+	/*margin: -30px 200px 0px 200px;*/
+}
+.main_body {
+	margin: 0px 200px;
+	padding: 0;
+}
+.page {
+	background-color: #F3EBE9;
+	margin-top: -10px;
+	padding-left: 30px;
+}
+h1 {
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	background-color: salmon;
+	color: white;
+	padding: 15px 0px 0px 10px;
+}
+h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: cursive, Helvetica, sans-serif;
+	background-color: salmon;
+	padding: 0px 0px 15px 10px;
+}
+div {
+	padding: 25px;
+}
+h3 {
+	font-size: 18px;
+	font-family: cursive, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.flower {
+	width: 100%;
+}
+.footer {
+	background-color: salmon;
+	z-index: 1;
+	color: white;
+}
+.grid {
+	border: 5px solid lightgrey;
+	width: 23%;
+}
+.copyright {
+	position: relative;
+	left: 840px;
+	bottom: 10px;
+}
