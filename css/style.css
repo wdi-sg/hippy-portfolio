@@ -1,6 +1,6 @@
-/* 
+/*
 
-Style Hints: 
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
@@ -17,3 +17,88 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+
+body {
+	font-family: "Times New Roman", serif;
+	font-color: black;
+	background-image: url(../images/pattern1.png);
+
+}
+
+h1{
+	 font-size : 50px;
+   font-family : "Helvetica";
+   text-transform: uppercase;
+   color: #FFFFFF;
+   padding: 10px 50px 0px 0px;
+   margin-bottom: 0px;
+
+}
+
+#subtitle {
+	margin-top:0px;
+}
+
+h4{
+	  font-family : cursive;
+   text-transform: uppercase;
+   padding-top: 0px;
+   margin-top:0px;
+   margin-left: 5px;
+}
+
+#title {
+	background-color: #EF776E;
+	padding: 10px 50px 5px 10px;
+	box-sizing: border-box;
+	width:800px;
+	margin: 0 auto;
+
+}
+
+
+
+
+.page {
+	background-color: white;
+	margin: 0 auto;
+	max-width: 800px;
+
+}
+
+#orchid {
+	width:800px;
+}
+
+.subheader {
+	font-family: cursive, 'Helvetica', sans-serif;
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+.description {
+	margin-left: 5px;
+}
+
+.footer {
+	background-color: #EF776E;
+	width: 800px;
+	margin: 0 auto;
+	text-align: right;
+	color: white;
+	padding: 50px 0px 0px 90px;
+	box-sizing: border-box;
+
+}
+
+.images {
+	display: inline-block;
+	max-width: 800px;
+
+}
+
+.gallery {
+	border: 5px grey solid;
+	width: 187px;
+	margin: 0 auto;
+}
